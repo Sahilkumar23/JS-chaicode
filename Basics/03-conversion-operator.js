@@ -44,10 +44,53 @@ let booleanisLoggedIn = Boolean(isLoggedIn);
 
 let anyNumber= 33;
 
-console.log(typeof anyNumber); // 33 is "number"
+// console.log(typeof anyNumber); // 33 is "number"
 
 let stringNumber= String(anyNumber); //type conversion
 
-console.log(stringNumber);
+// console.log(stringNumber);
 
-console.log(typeof stringNumber); // 33 "number" converted to "string"
+// console.log(typeof stringNumber); // 33 "number" converted to "string"
+
+
+
+// ************************** Operations ************************************
+
+let value = 3;
+let negValue = -value;
+// console.log(negValue);
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+
+
+let str1 = "hello"
+let str2 = " sahil!"
+let str3 = str1 + str2
+// console.log(str3);
+
+// console.log("1" + 2);
+// console.log(1 + "2")
+// console.log("1" + 2 + 2);
+// console.log(1 + 2 + "2")
+
+console.log((3 + 4) * 5 % 3);
+
+// console.log(true);
+// console.log(+true);
+// console.log(+"");
+
+let counter = 100
+counter++;
+console.log(counter);
+// ++counter;  //Prefix and Postfix operators
+
+//link to study
+//hhtps://tc39.es/ecma262/multipage/abstract-operations.
+
+
+
