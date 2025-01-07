@@ -1,8 +1,8 @@
 let score = 33 // output = number
-// let score1 = "33abc"
-// let score1 = "33"
-// let score1 = null
-// let score1 = undefined; 
+// let score1 = "33abc" // output = NaN
+// let score1 = "33" // output = number
+// let score1 = null // output = 0
+// let score1 = undefined; // output = NaN
 let score1 = true
 
 
@@ -11,7 +11,7 @@ let score1 = true
 // console.log(typeof score);
 // console.log(typeof(score1));// output = string(before type conversion)
 
-let valueInNumber = Number(score1);  //  (type conversion)
+let valueInNumber = Number(score1);  //  (type conversion) //Number conversion
 // console.log(valueInNumber);
 // console.log(typeof(valueInNumber));
 
@@ -32,7 +32,7 @@ true => 1, false => 0
 // let isLoggedIn = "Sahil"
 let isLoggedIn = "";
 
-let booleanisLoggedIn = Boolean(isLoggedIn);
+let booleanisLoggedIn = Boolean(isLoggedIn); //Boolean conversion
 // console.log(booleanisLoggedIn);
 
 /*
@@ -46,7 +46,7 @@ let anyNumber= 33;
 
 // console.log(typeof anyNumber); // 33 is "number"
 
-let stringNumber= String(anyNumber); //type conversion
+let stringNumber= String(anyNumber); //type conversion      //String Conversion
 
 // console.log(stringNumber);
 
@@ -80,9 +80,9 @@ let str3 = str1 + str2
 
 console.log((3 + 4) * 5 % 3);
 
-// console.log(true);
-// console.log(+true);
-// console.log(+"");
+// console.log(true); // output=true
+// console.log(+true); //output=1
+// console.log(+"");//output=0
 
 let counter = 100
 counter++;
